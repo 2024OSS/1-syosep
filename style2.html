@@ -77,6 +77,10 @@
             cursor: pointer;
         }
 
+        #menulist li:first-child a {
+            color: white;
+        }
+
         .menuitem:nth-child(2) {
             background-color: white;
             color: #d14836;
@@ -98,11 +102,11 @@
         <div class="wrapper">
             <div id="menu">
                 <ul id="menulist">
-                    <li class="menuitem" onclick="reStyle(0)">Stylesheet 1
-                        <li class="menuitem" onclick="reStyle(1)">Stylesheet 2
-                        <li class="menuitem" onclick="reStyle(2)">Stylesheet 3
-                        <li class="menuitem" onclick="reStyle(3)">Stylesheet 4
-                        <li class="menuitem" onclick="noStyles()">No Stylesheet
+                    <li class="menuitem"><a href="style1.html">Stylesheet 1</a></li>
+                    <li class="menuitem"><a href="style2.html">Stylesheet 2</a></li>
+                    <li class="menuitem">Stylesheet 3</a></li>
+                    <li class="menuitem">Stylesheet 4</a></li>
+                    <li class="menuitem"><a href="nostyle.html">No Stylesheet</a></li>
                 </ul>
             </div>
             <div id="main">
